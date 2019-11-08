@@ -2,7 +2,7 @@ en:
   lipstick: 💄
   new_key3: secon
   value: o
-  value: test
+  value: tests
   new_key1:
     - first
     - secot
