@@ -1,7 +1,192 @@
 en:
-  lipstick: 💄
-  toto: ok!
-  new_key1:
-    - firstttt
-    - second
-  new_key2: secon
+  aaps:
+    bad_password_error: The username and password that you have provided does not match our records. Please verify your credentials and try again.
+    bad_username_error: The username that you have provided does not match our records. Please verify your credentials and try again or <a href=" http://members.aaps.org/Core/CreateAccount.aspx" target="_blank">click here to register</a>.
+    service_url: AAPS Service URL
+  access: Access
+  access_code: Access Code
+  access_code_deleted_message: Access Code deleted successfully
+  access_code_label: Code
+  access_code_required: Is Access Code Required for Sign Up?
+  access_code_updated_message: Access Code updated successfully
+  access_codes: Access Codes
+  access_error: You do not have access to the content on this website.
+  access_key_id: Access Key ID
+  access_will_expire_on: Access will expire on
+  accessibility:
+    actions:
+      base: To %{action} %{class_name} press button with label <strong>"%{submit_action_text}"</strong>.
+      cancel: For cancelling press button with label <strong>"%{cancel_text}"</strong>.
+      save_and_close: To save Question and exit from editing press button with label <strong>"%{save_and_close_text}"</strong>,
+      save_and_continue: To just save Question press button with label <strong>"%{save_and_continue_text}"</strong>
+      sign_in: To sign in to application press button with label "<strong>%{sign_in_text}</strong>".
+      sign_up: To sign up to application press button with label "<strong>%{sign_up_text}</strong>".
+  account: Account
+  account_access_warning: You have accessed a different account and have been signed out.
+  account_banner: Banner Image
+  account_community_codes_hint: Enter community codes for BCom integrations. Separate codes with a comma.
+  account_created_message: Account created successfully.
+  account_dashboard: Account Dashboard
+  account_data_feed_tooltip: RSS feed contains a listing of all content in your account, including titles, descriptions, keywords, prices etc. Event feed will list upcoming events for your account in JSON format.
+  account_data_feeds: Account data feeds
+  account_description: Description
+  account_event_code_hint: Enter in the event code for BCom integrations to identify the account
+  account_event_feed: Account event feed
+  account_name: Account Name
+  account_pem_certificate_hint: PEM or DER format
+  account_plan: Account Plan
+  account_required: In order to access this content you must sign in or create an account
+  account_rss_feed: Account RSS feed
+  account_rss_feed_tooltip: This RSS feed contains a listing of all content in your account, including titles, descriptions, keywords, prices etc.
+  account_settings_updated_message: Settings were updated
+  account_updated_message: Account updated successfully
+  accounts:
+    admin_commerce:
+      bulk_order_import: Bulk Order Import
+      cannon_orders: Cannon Orders
+      content: Content
+      coupons: Coupons
+      credit_balances: Credit Balances
+      discounts: Discounts
+      failed_transactions: Failed Transactions
+      invoices: Unpaid Invoices
+      manual_orders: Manual Orders
+      merchant: Merchant
+      netforum_enterprise_product_list: Netforum Enterprise Product List
+      netforum_enterprise_saml_product_list: Netforum Enterprise Product List
+      netforum_product_list: Netforum Product List
+      overview: Overview
+      payment_details: Payment Details
+      product_bundles: Product Bundles
+      product_catalog: Product Catalog
+      refunds: Refunds
+      sales: Sales
+      sales_by_bundle: Sales by Bundle
+      sales_by_category: Sales by Category
+      your_membership_product_list: Your Membership Product List
+    assessment_pools_settings:
+      add_question_pool: Add Question Pool
+      assessment_pools_settings: Assessment Pool Settings
+    bulk_upload_assessment_questions:
+      csv_import:
+        upload:
+          answer_help_text: Correct answer is a required field for true_false and multiple_choice questions. For true_false questions the correct answer should be either TRUE or FALSE. To set correct answer for multiple_choice questions - fill the cell with number of answer. For multiple choice questions with more than one correct answer, separate them with a semicolon (;).
+          answers_help_text: Answers columns are required only for multiple_choice and matching questions. For multiple_choice questions with more than 8 possible answers, add additional columns to your template (e.g Answer_9... ).
+          download_button: Download template
+          download_text: Click Download template to generate an import template file. Each row in the template should represent one new question to be imported.
+          formats_text: 'When you click Download, you''ll have your choice of the following filetypes: .csv and .xlsx. We don''t support .xls anymore.'
+          header: Bulk Upload Assessment Questions
+          import_id_help_text: To match questions to their assessment, use the assessment's Import ID (you can see the available options in the table below). You can import questions for multiple assessments in one template.
+          matching_question_help_text: Correct answer is not a required field for matching questions. To create the answers to a matching question, fill the answer fields (Answer_1, Answer_2, ...) with the matching pairs separated via vertical line (|).
+          question_types_help_text: 'List of available question types:'
+          required_fields_help_text: 'List of required fields:'
+          upload_button: Upload template
+          upload_text: Once your template is ready, upload it here.
+    bulk_upload_assessments:
+      csv_import:
+        upload:
+          download_button: Download template
+          download_text: Click Download template to generate an import template file. Each row in the template should represent one new assessment to be imported.
+          formats_text: 'When you click Download, you''ll have your choice of the following filetypes: .csv and .xlsx. We don''t support .xls anymore.'
+          header: Bulk Upload Assessments
+          import_id_help_text: Each assessment's Import ID should be a unique number. You can choose any number you like, making sure it's not the same as another assessment's Import ID. When using the Assessment Questions importer later, you'll use this Import ID to match questions up to their assessments.
+          keywords_and_groups_help_text: Assessments can be imported with multiple search keywords and groups by separating them with a semi-colon (;).
+          required_fields_help_text: 'List of required fields:'
+          retakes_help_text: For assessments with unlimited retakes, set the retakes column to 'Inf' (without quotes). If the assessment cannot be retaken, set it to 0.
+          retakes_on_pass_fail_help_text: Set the retakes column to 'inf on fail' or 'inf on pass' (without quotes) if you want your assessment to have unlimited retakes on fail or on pass respectively. If the assessment cannot be retaken, set it to 0.
+          upload_button: Upload template
+          upload_text: Once your template is ready, upload it here.
+    certificate_settings:
+      add_certificate: Add Certificate
+      certificate_settings: Certificate Settings
+    certificate_templates_settings:
+      add_certificate_template: Add Certificate Template
+      certificate_template_settings: Certificate Template Settings
+      edit_certificate_template_attributes_title: Edit Certificate Template Attributes
+      textwrap_width_hint: Sets the maximum width of textboxes on this certificate template before text-wrapping to the next line.
+      textwrap_width_label: Text-width percentage
+    commerce:
+      bulk_order_import_wrapper:
+        bulk_order_import:
+          preview_header: Order Import Preview
+          report_header: Order Import Results
+          upload:
+            download_button: Download template
+            download_text: 'Click "Download template" to generate an import file for your account. Each row in the template should represent one item to be imported in an order for a user.  '
+            formats_text_first: Identify users uniquely by setting the User field. It should either be set to the user's email or their username, whichever one they use to log in.
+            formats_text_fourth: 'Please fill in the template without any formatting. We support different formats of template files: .csv and .xlsx. '
+            formats_text_second: You can pass in an optional Import ID in order to group multiple items for a user into a single order. Leave blank to create individual orders per row.
+            formats_text_third: The Date field format should be YYYY-MM-DD or YYYY/MM/DD, and can't be in the future.
+            header: Bulk Order Import Template
+            required_fields_help_text: 'List of required fields:'
+            upload_button: Upload Template
+            upload_text: 'Once the import file is ready, upload it here:'
+            user_help_text: 'Please note: users must have access to the content you are trying to create an order for. If they do not have the correct permissions or the item is not for sale, the order creation will fail.'
+      credit_balances_wrapper:
+        search: Search for User
+      manual_orders_wrapper:
+        search: Search for User
+      overview:
+        courses_sold: Courses Sold
+        events_sold: Events Sold
+        items_sold: Items Sold
+        revenue: Revenue
+        sales: Sales
+        sales_revenue: Sales Revenue
+        total_commerce: Total Commerce
+        total_sold: Total Sold
+    content_prompts_settings: Content Prompt Settings
+    dashboard: Dashboard
+    edit:
+      account_defaults: Account Defaults
+      account_label: Account Label
+      account_name_and_url: Account Name and URL
+      account_settings: Account Settings
+      administrative_settings: Administrative Settings
+      advanced: Advanced
+      advertisements: Advertisements
+      allow_external_product_mapping: Allow External Product Mappings
+      allow_live_stream_embed: Allow Live Stream Embed
+      alternate_registration_url: Registration Url
+      alternate_sign_in_url: Sign In Url
+      alternate_sign_out_url: Sign Out URL
+      api_sso_integrations: API, Sign-In, Registration, and Cart Settings
+      ash_attendance_tracking: Use ASH for Live-Event Attendance Tracking
+      attendance_list_emails: Web Event Attendance List Recipients
+      attendance_list_tooltip: One email per event will be sent with a list of all of its attendees. Separate emails with a comma.
+      beta_features: Beta Features
+      bluesky_account_id: BlueSky Account ID
+      body_active: Enable body code
+      body_code_snippet: Body code snippet
+      broadcast_message: Show Broadcast Message
+      client_customizations: Client Customizations
+      content_prompts: Content Prompts
+      course_admin: Course Admin
+      course_admins: course admins
+      courses_page_settings:
+        list_view_enabled:
+          label: List view option
+        metadata_enabled:
+          label: Course item icons and counts
+          tooltip: Display course item icons and counts on course cards
+        search_enabled:
+          label: Search
+          tooltip: Display search on the courses page. Allows users to search for courses by title, description, and keywords
+        use_list_as_default:
+          label: Display list view as default
+          tooltip: Turn on to display list view by default when the courses page loads
+      credit_card_payments: 'Credit Card Payments:'
+      credit_card_payments_hint: Enter any custom instructions or thank you text that you would like to appear on all receipts.
+      custom_email_from_address: Custom From Address
+      custom_email_name: Custom Email Name
+      custom_receipt_text: Custom Receipt Text
+      custom_reports: Custom Reports
+      default_currency_warning: 'Warning: The payment processor and merchant account configured for this account MUST support processing in the currency chosen. Changing this setting will not override the merchant settings and can cause users to be charged incorrectly.'
+      default_user_group_set: If a Default-User group is already selected, you must clear it before setting a new default
+      disable_certificate_awarded_emails: Certificate awarded
+      disable_email_change: Email Address
+      disable_emails: Disable emails for
+      disable_name_change: Name
+      disable_order_emails: Order Confirmation
+      disable_parent_purchase: Disable parent purchase when registration limit reached
+      disable_password_change: Passwo...
