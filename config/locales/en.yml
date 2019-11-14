@@ -1,192 +1,146 @@
 en:
-  aaps:
-    bad_password_error: The username and password that you have provided does not match our records. Please verify your credentials and try again.
-    bad_username_error: The username that you have provided does not match our records. Please verify your credentials and try again or <a href=" http://members.aaps.org/Core/CreateAccount.aspx" target="_blank">click here to register</a>.
-    service_url: AAPS Service URL
-  access: Access
-  access_code: Access Code
-  access_code_deleted_message: Access Code deleted successfully
-  access_code_label: Code
-  access_code_required: Is Access Code Required for Sign Up?
-  access_code_updated_message: Access Code updated successfully
-  access_codes: Access Codes
-  access_error: You do not have access to the content on this website.
-  access_key_id: Access Key ID
-  access_will_expire_on: Access will expire on
-  accessibility:
-    actions:
-      base: To %{action} %{class_name} press button with label <strong>"%{submit_action_text}"</strong>.
-      cancel: For cancelling press button with label <strong>"%{cancel_text}"</strong>.
-      save_and_close: To save Question and exit from editing press button with label <strong>"%{save_and_close_text}"</strong>,
-      save_and_continue: To just save Question press button with label <strong>"%{save_and_continue_text}"</strong>
-      sign_in: To sign in to application press button with label "<strong>%{sign_in_text}</strong>".
-      sign_up: To sign up to application press button with label "<strong>%{sign_up_text}</strong>".
-  account: Account
-  account_access_warning: You have accessed a different account and have been signed out.
-  account_banner: Banner Image
-  account_community_codes_hint: Enter community codes for BCom integrations. Separate codes with a comma.
-  account_created_message: Account created successfully.
-  account_dashboard: Account Dashboard
-  account_data_feed_tooltip: RSS feed contains a listing of all content in your account, including titles, descriptions, keywords, prices etc. Event feed will list upcoming events for your account in JSON format.
-  account_data_feeds: Account data feeds
-  account_description: Description
-  account_event_code_hint: Enter in the event code for BCom integrations to identify the account
-  account_event_feed: Account event feed
-  account_name: Account Name
-  account_pem_certificate_hint: PEM or DER format
-  account_plan: Account Plan
-  account_required: In order to access this content you must sign in or create an account
-  account_rss_feed: Account RSS feed
-  account_rss_feed_tooltip: This RSS feed contains a listing of all content in your account, including titles, descriptions, keywords, prices etc.
-  account_settings_updated_message: Settings were updated
-  account_updated_message: Account updated successfully
-  accounts:
-    admin_commerce:
-      bulk_order_import: Bulk Order Import
-      cannon_orders: Cannon Orders
-      content: Content
-      coupons: Coupons
-      credit_balances: Credit Balances
-      discounts: Discounts
-      failed_transactions: Failed Transactions
-      invoices: Unpaid Invoices
-      manual_orders: Manual Orders
-      merchant: Merchant
-      netforum_enterprise_product_list: Netforum Enterprise Product List
-      netforum_enterprise_saml_product_list: Netforum Enterprise Product List
-      netforum_product_list: Netforum Product List
-      overview: Overview
-      payment_details: Payment Details
-      product_bundles: Product Bundles
-      product_catalog: Product Catalog
-      refunds: Refunds
-      sales: Sales
-      sales_by_bundle: Sales by Bundle
-      sales_by_category: Sales by Category
-      your_membership_product_list: Your Membership Product List
-    assessment_pools_settings:
-      add_question_pool: Add Question Pool
-      assessment_pools_settings: Assessment Pool Settings
-    bulk_upload_assessment_questions:
-      csv_import:
-        upload:
-          answer_help_text: Correct answer is a required field for true_false and multiple_choice questions. For true_false questions the correct answer should be either TRUE or FALSE. To set correct answer for multiple_choice questions - fill the cell with number of answer. For multiple choice questions with more than one correct answer, separate them with a semicolon (;).
-          answers_help_text: Answers columns are required only for multiple_choice and matching questions. For multiple_choice questions with more than 8 possible answers, add additional columns to your template (e.g Answer_9... ).
-          download_button: Download template
-          download_text: Click Download template to generate an import template file. Each row in the template should represent one new question to be imported.
-          formats_text: 'When you click Download, you''ll have your choice of the following filetypes: .csv and .xlsx. We don''t support .xls anymore.'
-          header: Bulk Upload Assessment Questions
-          import_id_help_text: To match questions to their assessment, use the assessment's Import ID (you can see the available options in the table below). You can import questions for multiple assessments in one template.
-          matching_question_help_text: Correct answer is not a required field for matching questions. To create the answers to a matching question, fill the answer fields (Answer_1, Answer_2, ...) with the matching pairs separated via vertical line (|).
-          question_types_help_text: 'List of available question types:'
-          required_fields_help_text: 'List of required fields:'
-          upload_button: Upload template
-          upload_text: Once your template is ready, upload it here.
-    bulk_upload_assessments:
-      csv_import:
-        upload:
-          download_button: Download template
-          download_text: Click Download template to generate an import template file. Each row in the template should represent one new assessment to be imported.
-          formats_text: 'When you click Download, you''ll have your choice of the following filetypes: .csv and .xlsx. We don''t support .xls anymore.'
-          header: Bulk Upload Assessments
-          import_id_help_text: Each assessment's Import ID should be a unique number. You can choose any number you like, making sure it's not the same as another assessment's Import ID. When using the Assessment Questions importer later, you'll use this Import ID to match questions up to their assessments.
-          keywords_and_groups_help_text: Assessments can be imported with multiple search keywords and groups by separating them with a semi-colon (;).
-          required_fields_help_text: 'List of required fields:'
-          retakes_help_text: For assessments with unlimited retakes, set the retakes column to 'Inf' (without quotes). If the assessment cannot be retaken, set it to 0.
-          retakes_on_pass_fail_help_text: Set the retakes column to 'inf on fail' or 'inf on pass' (without quotes) if you want your assessment to have unlimited retakes on fail or on pass respectively. If the assessment cannot be retaken, set it to 0.
-          upload_button: Upload template
-          upload_text: Once your template is ready, upload it here.
-    certificate_settings:
-      add_certificate: Add Certificate
-      certificate_settings: Certificate Settings
-    certificate_templates_settings:
-      add_certificate_template: Add Certificate Template
-      certificate_template_settings: Certificate Template Settings
-      edit_certificate_template_attributes_title: Edit Certificate Template Attributes
-      textwrap_width_hint: Sets the maximum width of textboxes on this certificate template before text-wrapping to the next line.
-      textwrap_width_label: Text-width percentage
-    commerce:
-      bulk_order_import_wrapper:
-        bulk_order_import:
-          preview_header: Order Import Preview
-          report_header: Order Import Results
-          upload:
-            download_button: Download template
-            download_text: 'Click "Download template" to generate an import file for your account. Each row in the template should represent one item to be imported in an order for a user.  '
-            formats_text_first: Identify users uniquely by setting the User field. It should either be set to the user's email or their username, whichever one they use to log in.
-            formats_text_fourth: 'Please fill in the template without any formatting. We support different formats of template files: .csv and .xlsx. '
-            formats_text_second: You can pass in an optional Import ID in order to group multiple items for a user into a single order. Leave blank to create individual orders per row.
-            formats_text_third: The Date field format should be YYYY-MM-DD or YYYY/MM/DD, and can't be in the future.
-            header: Bulk Order Import Template
-            required_fields_help_text: 'List of required fields:'
-            upload_button: Upload Template
-            upload_text: 'Once the import file is ready, upload it here:'
-            user_help_text: 'Please note: users must have access to the content you are trying to create an order for. If they do not have the correct permissions or the item is not for sale, the order creation will fail.'
-      credit_balances_wrapper:
-        search: Search for User
-      manual_orders_wrapper:
-        search: Search for User
-      overview:
-        courses_sold: Courses Sold
-        events_sold: Events Sold
-        items_sold: Items Sold
-        revenue: Revenue
-        sales: Sales
-        sales_revenue: Sales Revenue
-        total_commerce: Total Commerce
-        total_sold: Total Sold
-    content_prompts_settings: Content Prompt Settings
-    dashboard: Dashboard
-    edit:
-      account_defaults: Account Defaults
-      account_label: Account Label
-      account_name_and_url: Account Name and URL
-      account_settings: Account Settings
-      administrative_settings: Administrative Settings
-      advanced: Advanced
-      advertisements: Advertisements
-      allow_external_product_mapping: Allow External Product Mappings
-      allow_live_stream_embed: Allow Live Stream Embed
-      alternate_registration_url: Registration Url
-      alternate_sign_in_url: Sign In Url
-      alternate_sign_out_url: Sign Out URL
-      api_sso_integrations: API, Sign-In, Registration, and Cart Settings
-      ash_attendance_tracking: Use ASH for Live-Event Attendance Tracking
-      attendance_list_emails: Web Event Attendance List Recipients
-      attendance_list_tooltip: One email per event will be sent with a list of all of its attendees. Separate emails with a comma.
-      beta_features: Beta Features
-      bluesky_account_id: BlueSky Account ID
-      body_active: Enable body code
-      body_code_snippet: Body code snippet
-      broadcast_message: Show Broadcast Message
-      client_customizations: Client Customizations
-      content_prompts: Content Prompts
-      course_admin: Course Admin
-      course_admins: course admins
-      courses_page_settings:
-        list_view_enabled:
-          label: List view option
-        metadata_enabled:
-          label: Course item icons and counts
-          tooltip: Display course item icons and counts on course cards
-        search_enabled:
-          label: Search
-          tooltip: Display search on the courses page. Allows users to search for courses by title, description, and keywords
-        use_list_as_default:
-          label: Display list view as default
-          tooltip: Turn on to display list view by default when the courses page loads
-      credit_card_payments: 'Credit Card Payments:'
-      credit_card_payments_hint: Enter any custom instructions or thank you text that you would like to appear on all receipts.
-      custom_email_from_address: Custom From Address
-      custom_email_name: Custom Email Name
-      custom_receipt_text: Custom Receipt Text
-      custom_reports: Custom Reports
-      default_currency_warning: 'Warning: The payment processor and merchant account configured for this account MUST support processing in the currency chosen. Changing this setting will not override the merchant settings and can cause users to be charged incorrectly.'
-      default_user_group_set: If a Default-User group is already selected, you must clear it before setting a new default
-      disable_certificate_awarded_emails: Certificate awarded
-      disable_email_change: Email Address
-      disable_emails: Disable emails for
-      disable_name_change: Name
-      disable_order_emails: Order Confirmation
-      disable_parent_purchase: Disable parent purchase when registration limit reached
-      disable_password_change: Passwo...
+  activerecord:
+    attributes:
+      user:
+        confirmation_sent_at: Confirmation sent at
+        confirmation_token: Confirmation token
+        confirmed_at: Confirmed at
+        created_at: Created at
+        current_password: Current password
+        current_sign_in_at: Current sign in at
+        current_sign_in_ip: Current sign in IP
+        email: Email
+        encrypted_password: Encrypted password
+        failed_attempts: Failed attempts
+        last_sign_in_at: Last sign in at
+        last_sign_in_ip: Last sign in IP
+        locked_at: Locked at
+        password: Password
+        password_confirmation: Password confirmation
+        remember_created_at: Remember created at
+        remember_me: Remember me
+        reset_password_sent_at: Reset password sent at
+        reset_password_token: Reset password token
+        sign_in_count: Sign in count
+        unconfirmed_email: Unconfirmed email
+        unlock_token: Unlock token
+        updated_at: Updated at
+    models:
+      user:
+        one: User
+        other: Users
+  devise:
+    confirmations:
+      confirmed: Your email address has been successfully confirmed.
+      new:
+        resend_confirmation_instructions: Resend confirmation instructions
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes.
+    failure:
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
+    mailer:
+      confirmation_instructions:
+        action: Confirm my account
+        greeting: Welcome %{recipient}!
+        instruction: 'You can confirm your account email through the link below:'
+        subject: Confirmation instructions
+      email_changed:
+        greeting: Hello %{recipient}!
+        message: We're contacting you to notify you that your email has been changed to %{email}.
+        subject: Email Changed
+      password_change:
+        greeting: Hello %{recipient}!
+        message: We're contacting you to notify you that your password has been changed.
+        subject: Password Changed
+      reset_password_instructions:
+        action: Change my password
+        greeting: Hello %{recipient}!
+        instruction: Someone has requested a link to change your password. You can do this through the link below.
+        instruction_2: If you didn't request this, please ignore this email.
+        instruction_3: Your password won't change until you access the link above and create a new one.
+        subject: Reset password instructions
+      unlock_instructions:
+        action: Unlock my account
+        greeting: Hello %{recipient}!
+        instruction: 'Click the link below to unlock your account:'
+        message: Your account has been locked due to an excessive number of unsuccessful sign in attempts.
+        subject: Unlock instructions
+    omniauth_callbacks:
+      failure: Could not authenticate you from %{kind} because "%{reason}".
+      success: Successfully authenticated from %{kind} account.
+    passwords:
+      edit:
+        change_my_password: Change my password
+        change_your_password: Change your password
+        confirm_new_password: Confirm new password
+        new_password: New password
+      new:
+        forgot_your_password: Forgot your password?
+        send_me_reset_password_instructions: Send me reset password instructions
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: You will receive an email with instructions on how to reset your password in a few minutes.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
+    registrations:
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      edit:
+        are_you_sure: Are you sure?
+        cancel_my_account: Cancel my account
+        currently_waiting_confirmation_for_email: 'Currently waiting confirmation for: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: leave blank if you don't want to change it
+        title: Edit %{resource}
+        unhappy: Unhappy?
+        update: Update
+        we_need_your_current_password_to_confirm_your_changes: we need your current password to confirm your changes
+      new:
+        sign_up: Sign up
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.
+      updated: Your account has been updated successfully.
+      updated_but_not_signed_in: Your account has been updated successfully, but since your password was changed, you need to sign in again
+    sessions:
+      already_signed_out: Signed out successfully.
+      new:
+        sign_in: Log in
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
+    shared:
+      links:
+        back: Back
+        didn_t_receive_confirmation_instructions: Didn't receive confirmation instructions?
+        didn_t_receive_unlock_instructions: Didn't receive unlock instructions?
+        forgot_your_password: Forgot your password?
+        sign_in: Log in
+        sign_in_with_provider: Sign in with %{provider}
+        sign_up: Sign up
+      minimum_password_length:
+        one: "(%{count} character minimum)"
+        other: "(%{count} characters minimum)"
+    unlocks:
+      new:
+        resend_unlock_instructions: Resend unlock instructions
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+  errors:
+    messages:
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
+      not_saved:
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"
