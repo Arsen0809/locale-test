@@ -2,7 +2,6 @@ en:
   activerecord:
     attributes:
       user:
-        confirmed_at: Confirmed at
         created_at: Created at
         current_password: Curreent password
         current_sign_in_at: Current sign in at
