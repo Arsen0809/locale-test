@@ -5,7 +5,6 @@ en:
         confirmation_sent_at: Confirmation sent at
         confirmed_at: Confirmed at
         created_at: Created at
-        current_password: Current password
         current_sign_in_at: Current sign in at
         current_sign_in_ip: Current sign in IP
         email: Email
