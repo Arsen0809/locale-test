@@ -4,7 +4,6 @@ en:
       user:
         created_at: Created at
         email: Email
-        last_sign_in_ip: Last sign in IP
         locked_at: Locked at
         password: Password
         password_confirmation: Password confirmation
