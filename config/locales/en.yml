@@ -3,11 +3,10 @@ en:
     attributes:
       user:
         created_at: Created at
-        remember_me: Remember me
         reset_password_sent_at: Reset password sent at
         sign_in_count: Sign in count
         unlock_token: Unlock token
-        unlock_token1: Unlock token1
+        unlock_token1: Unlock token12
         updated_at: Updated at
     models:
       user:
