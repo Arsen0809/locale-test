@@ -3,7 +3,7 @@ en:
     attributes:
       user:
         created_at: Created at1
-        created_at1: Created at12
+        created_at1: Created at122
         reset_password_sent_at: Reset password sent at12
         sign_in_count: Sign in count
         unlock_token: Unlock token2
