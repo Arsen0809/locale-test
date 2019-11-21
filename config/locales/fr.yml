@@ -1,6 +1,11 @@
----
-  fr: 
-    lipstick: "💄"
-    new_key1: "un"
-  en: 
-    toto: "okkk!"
+fr:
+  lipstick: "\U0001F484"
+  new_key1: un
+  activerecord:
+    attributes:
+      user:
+        created_at1: '[translated] Created at122443'
+        sign_in_count: '[translated] Sign in count443'
+        unlock_token: '[translated] Unlock token2443'
+        unlock_token1: '[translated] Unlock token1234443'
+        updated_at: '[translated] Updated at443'
