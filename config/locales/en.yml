@@ -2,11 +2,11 @@ en:
   activerecord:
     attributes:
       user:
-        created_at1: Created at122
-        sign_in_count: Sign in count
-        unlock_token: Unlock token2
-        unlock_token1: Unlock token1234
-        updated_at: Updated at
+        created_at1: Created at1224
+        sign_in_count: Sign in count4
+        unlock_token: Unlock token24
+        unlock_token1: Unlock token12344
+        updated_at: Updated at4
     models:
       user:
         one: Users
