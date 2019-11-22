@@ -5,7 +5,6 @@ en:
         created_at1: Created at122443
         sign_in_count: Sign in count443
         unlock_token: Unlock token2443
-        unlock_token1: Unlock token1234443
         updated_at: Updated at443
     models:
       user:
