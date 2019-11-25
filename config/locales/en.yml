@@ -2,7 +2,7 @@ en:
   activerecord:
     attributes:
       user:
-        created_at1: Created at122443113
+        created_at1: Created at1224431132
         sign_in_count: Sign in count443
         unlock_token: Unlock token2443
     models:
