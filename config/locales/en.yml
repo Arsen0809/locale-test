@@ -3,7 +3,7 @@ en:
     attributes:
       user:
         created_at1: Created at1224431132
-        sign_in_count: Sign in count443
+        sign_in_count: Sign in count4431
         unlock_token: Unlock token2443
     models:
       user:
