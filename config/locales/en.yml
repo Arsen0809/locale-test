@@ -2,7 +2,7 @@ en:
   activerecord:
     attributes:
       user:
-        sign_in_count: Sign in count443114wafds
+        sign_in_count: Sign in count443114wafds1
     models:
       user:
         one: Usersrs
