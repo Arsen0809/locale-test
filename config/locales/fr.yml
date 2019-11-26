@@ -1,6 +1,7 @@
----
-  fr: 
-    lipstick: "💄"
-    new_key1: "un"
-  en: 
-    toto: "okkk!"
+fr:
+  lipstick: "\U0001F484"
+  new_key1: un
+  activerecord:
+    attributes:
+      user:
+        sign_in_count: '[translated] Sign in count443114wafds1'
