@@ -3,7 +3,6 @@ en:
     attributes:
       user:
         sign_in_count: Sign in count44311
-        unlock_token: Unlock token2443
     models:
       user:
         one: Users
