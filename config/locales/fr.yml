@@ -1,6 +1,8 @@
----
-  fr: 
-    lipstick: "💄"
-    new_key1: "un"
-  en: 
-    toto: "okkk!"
+fr:
+  lipstick: "\U0001F484"
+  new_key1: un
+  activerecord:
+    models:
+      user:
+        one: '[translated] Usersrs'
+        other: '[translated] Users'
