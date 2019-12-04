@@ -1,6 +1,178 @@
----
-  fr: 
-    lipstick: "💄"
-    new_key1: "un"
-  en: 
-    toto: "okkk!"
+fr:
+  lipstick: "\U0001F484"
+  new_key1: un
+  activerecord:
+    attributes:
+      user:
+        sign_in_count: '[translated] Sign in count443114wafds11'
+    models:
+      user:
+        one: '[translated] Usersrs'
+        other: '[translated] Users'
+  devise:
+    confirmations:
+      confirmed: '[translated] Your email address has been successfully confirmed.'
+      new:
+        resend_confirmation_instructions: '[translated] Resend confirmation instructions'
+      send_instructions: >-
+        [translated] You will receive an email with instructions for how to
+        confirm your email address in a few minutes.
+      send_paranoid_instructions: >-
+        [translated] If your email address exists in our database, you will
+        receive an email with instructions for how to confirm your email address
+        in a few minutes.
+    failure:
+      already_authenticated: '[translated] You are already signed in.'
+      inactive: '[translated] Your account is not activated yet.'
+      invalid: '[translated] Invalid %{authentication_keys} or password.'
+      last_attempt: '[translated] You have one more attempt before your account is locked.'
+      locked: '[translated] Your account is locked.'
+      not_found_in_database: '[translated] Invalid %{authentication_keys} or password.'
+      timeout: >-
+        [translated] Your session expired. [translated] Please sign in again to
+        continue.
+      unauthenticated: '[translated] You need to sign in or sign up before continuing.'
+      unconfirmed: '[translated] You have to confirm your email address before continuing.'
+    mailer:
+      confirmation_instructions:
+        action: '[translated] Confirm my account'
+        greeting: '[translated] Welcome %{recipient}!'
+        instruction: >-
+          [translated] You can confirm your account email through the link
+          below:
+        subject: '[translated] Confirmation instructions'
+      email_changed:
+        greeting: '[translated] Hello %{recipient}!'
+        message: >-
+          [translated] We're contacting you to notify you that your email has
+          been changed to %{email}.
+        subject: '[translated] Email Changed'
+      password_change:
+        greeting: '[translated] Hello %{recipient}!'
+        message: >-
+          [translated] We're contacting you to notify you that your password has
+          been changed.
+        subject: '[translated] Password Changed'
+      reset_password_instructions:
+        action: '[translated] Change my password'
+        greeting: '[translated] Hello %{recipient}!'
+        instruction: >-
+          [translated] Someone has requested a link to change your password.
+          [translated] You can do this through the link below.
+        instruction_2: '[translated] If you didn''t request this, please ignore this email.'
+        instruction_3: >-
+          [translated] Your password won't change until you access the link
+          above and create a new one.
+        subject: '[translated] Reset password instructions'
+      unlock_instructions:
+        action: '[translated] Unlock my account'
+        greeting: '[translated] Hello %{recipient}!'
+        instruction: '[translated] Click the link below to unlock your account:'
+        message: >-
+          [translated] Your account has been locked due to an excessive number
+          of unsuccessful sign in attempts.
+        subject: '[translated] Unlock instructions'
+    omniauth_callbacks:
+      failure: >-
+        [translated] Could not authenticate you from %{kind} because
+        "%{reason}".
+      success: '[translated] Successfully authenticated from %{kind} account.'
+    passwords:
+      edit:
+        change_my_password: '[translated] Change my password'
+        change_your_password: '[translated] Change your password'
+        confirm_new_password: '[translated] Confirm new password'
+        new_password: '[translated] New password'
+      new:
+        forgot_your_password: '[translated] Forgot your password?'
+        send_me_reset_password_instructions: '[translated] Send me reset password instructions'
+      no_token: >-
+        [translated] You can't access this page without coming from a password
+        reset email. [translated] If you do come from a password reset email,
+        please make sure you used the full URL provided.
+      send_instructions: >-
+        [translated] You will receive an email with instructions on how to reset
+        your password in a few minutes.
+      send_paranoid_instructions: >-
+        [translated] If your email address exists in our database, you will
+        receive a password recovery link at your email address in a few minutes.
+      updated: >-
+        [translated] Your password has been changed successfully. [translated]
+        You are now signed in.
+      updated_not_active: '[translated] Your password has been changed successfully.'
+    registrations:
+      destroyed: >-
+        [translated] Bye! [translated] Your account has been successfully
+        cancelled. [translated] We hope to see you again soon.
+      edit:
+        are_you_sure: '[translated] Are you sure?'
+        cancel_my_account: '[translated] Cancel my account'
+        currently_waiting_confirmation_for_email: '[translated] Currently waiting confirmation for: %{email}'
+        leave_blank_if_you_don_t_want_to_change_it: '[translated] leave blank if you don''t want to change it'
+        title: '[translated] Edit %{resource}'
+        unhappy: '[translated] Unhappy?'
+        update: '[translated] Update'
+        we_need_your_current_password_to_confirm_your_changes: '[translated] we need your current password to confirm your changes'
+      new:
+        sign_up: '[translated] Sign up'
+      signed_up: '[translated] Welcome! [translated] You have signed up successfully.'
+      signed_up_but_inactive: >-
+        [translated] You have signed up successfully. [translated] However, we
+        could not sign you in because your account is not yet activated.
+      signed_up_but_locked: >-
+        [translated] You have signed up successfully. [translated] However, we
+        could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: >-
+        [translated] A message with a confirmation link has been sent to your
+        email address. [translated] Please follow the link to activate your
+        account.
+      update_needs_confirmation: >-
+        [translated] You updated your account successfully, but we need to
+        verify your new email address. [translated] Please check your email and
+        follow the confirmation link to confirm your new email address.
+      updated: '[translated] Your account has been updated successfully.'
+      updated_but_not_signed_in: >-
+        [translated] Your account has been updated successfully, but since your
+        password was changed, you need to sign in again
+    sessions:
+      already_signed_out: '[translated] Signed out successfully.'
+      new:
+        sign_in: '[translated] Log in'
+      signed_in: '[translated] Signed in successfully.'
+      signed_out: '[translated] Signed out successfully.'
+    shared:
+      links:
+        back: '[translated] Back'
+        didn_t_receive_confirmation_instructions: '[translated] Didn''t receive confirmation instructions?'
+        didn_t_receive_unlock_instructions: '[translated] Didn''t receive unlock instructions?'
+        forgot_your_password: '[translated] Forgot your password?'
+        sign_in: '[translated] Log in'
+        sign_in_with_provider: '[translated] Sign in with %{provider}'
+      minimum_password_length:
+        one: '[translated] (%{count} character minimum)'
+        other: '[translated] (%{count} characters minimum)'
+    unlocks:
+      new:
+        resend_unlock_instructions: '[translated] Resend unlock instructions'
+      send_instructions: >-
+        [translated] You will receive an email with instructions for how to
+        unlock your account in a few minutes.
+      send_paranoid_instructions: >-
+        [translated] If your account exists, you will receive an email with
+        instructions for how to unlock it in a few minutes.
+      unlocked: >-
+        [translated] Your account has been unlocked successfully. [translated]
+        Please sign in to continue.
+  errors:
+    messages:
+      already_confirmed: '[translated] was already confirmed, please try signing in'
+      confirmation_period_expired: >-
+        [translated] needs to be confirmed within %{period}, please request a
+        new one
+      expired: '[translated] has expired, please request a new one'
+      not_locked: '[translated] was not locked'
+      not_saved:
+        one: '[translated] 1 error prohibited this %{resource} from being saved:'
+        other: >-
+          [translated] %{count} errors prohibited this %{resource} from being
+          saved:
