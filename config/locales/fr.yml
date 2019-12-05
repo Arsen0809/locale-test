@@ -1,6 +1,6 @@
----
-  fr: 
-    lipstick: "💄"
-    new_key1: "un"
-  en: 
-    toto: "okkk!"
+fr:
+  lipstick: "\U0001F484"
+  new_key1: un
+  devise:
+    confirmations:
+      confirmed: '[translated] Your email address has been successfully confirmed.6'
