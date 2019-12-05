@@ -5,7 +5,7 @@ en:
         sign_in_count: Sign in count443114wafds11f111
     models:
       user:
-        one: Usersrs
+        one: Usersrsss
         other: Users
   devise:
     confirmations:
